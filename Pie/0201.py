@@ -42,5 +42,38 @@ print(a**b)
 1) bool
 True 참 / False 거짓
 - 참과 거짓을 나타내는 자료형
-- 주로 비교
+- 주로 비교, 논리 연산자로 만들어짐
+- 조건문에 활용
+
+비교연산자
+< 작다
+<= 작거나 같다
+> 크다
+>= 크거나 같다
+== 같다
+!= 같지 않다
+
+논리 연산자
+x or y   x나 y 둘 중 하나만 참이면 참
+x and y  x,y 모두 참이여야 참
+not x  x가 참이면 거짓, x가 거짓이면 참  
 '''
+
+x = 10
+y = -10
+
+print(x>0)
+print(y>0)
+print()
+print(x>y)
+print(x<y)
+print()
+print(x==10)
+print(x==y)
+print(x!=y)
+print()
+print(x>0 or y>0)
+print(x>0 and y>0)
+print()
+print(x>0)
+print(not x>0)
