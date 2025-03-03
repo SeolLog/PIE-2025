@@ -8,5 +8,8 @@ print(text[1])
 
 
 # 문자열 슬라이스 
+'인덱스값 입력 후 마지막 인덱스는 +1해서 적어주기'
 
 text = 'abcde fgh ijk'
+
+print(text[2:5]) 
